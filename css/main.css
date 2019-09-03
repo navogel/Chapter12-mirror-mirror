@@ -1,27 +1,12 @@
-h1 {
-	color: rgb(54, 102, 145);
-}
-
-.container {
+#container {
 	display: flex;
-	flex-direction: row;
+	min-height: 2500px;
 }
 
-#unique1 {
-	border: 1px solid red;
-	width: 50%;
-}
-
-#unique2 {
-	border: 1px solid blue;
-	width: 50%;
-}
-
-#message {
-	padding: 2em;
-	margin: auto;
-	display: block;
-	align-self: center;
-	margin-top: 1em;
-	margin-bottom: 1em;
+#audrey {
+	background-color: purple;
+	color: snow;
+	min-height: 100px;
+	width: 50px;
+	position: fixed;
 }
